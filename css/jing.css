@@ -1,0 +1,202 @@
+*{padding:0;margin:0;line-height: 0;}
+.clearfix{
+    clear:both;
+}
+
+header{
+    width:6.4rem;
+    background-color: #bb1523;
+    position: relative;
+}
+header .img-jd{
+    width:0.55rem;height:0.2rem;
+    padding:0.2rem 0.1rem 0.1rem 0.1rem;
+    float: left;
+}
+header .a-jd1{
+    display: inline-block;
+    float:left;
+    font:0.14rem 宋体;
+    color:#fff;text-decoration: none;
+    position: absolute;right:0.07rem;
+    top:0.2rem;
+}
+header .kuang{
+    width:4.8rem;height:0.3rem;
+    border-radius: 0.14rem;
+    background-color: #fff;
+      padding-left:0.32rem;
+    border:0;
+}
+header .k-w{
+    margin-top:-0.05rem;
+    padding-bottom:0.1rem;
+}
+header .k-w .sousuo{
+    width:0.19rem;height:0.19rem;
+    position: absolute;
+    left:0.83rem;top:0.2rem;
+}
+.swiper-container{
+    width:6.4rem;height:2.71rem;overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.swiper-wrapper{
+    width:51.2rem;height:2.71rem;list-style: none;
+}
+.swiper-wrapper .swiper-slide{
+    float: left;;width:6.4rem;height:3rem;
+}
+.swiper-wrapper img{
+    width:6.4rem;height:3rem;
+}
+.list{
+    width:6.4rem;
+    /*padding-left:0.2rem;*/
+}
+.list>li{
+    list-style: none;
+    float: left;
+    width:1.6rem;
+
+}
+.list>li>img{
+    width:0.4rem;height:0.4rem;
+    padding:0.1rem 0.6rem 0 0.6rem;
+}
+.list>li>.fl{
+    display: inline-block;
+    font:0.12rem 宋体;color:#666;
+    text-decoration: none;
+    padding-left:0.525rem;
+}
+.main{
+    margin-top:0.2rem;
+    width:6.4rem;
+    border-top:0.01rem solid #e0e0e0;
+
+}
+
+.asd1{
+    width:6.32rem;
+    border-top:0.1rem solid #f5f5f5;
+    border-left:0.05rem solid #f5f5f5;
+    border-right:0.05rem solid #f5f5f5;
+    position: relative;
+}
+.asd1 .p-img{
+    width:0.16rem;height:0.2rem;
+    position: absolute;left:0.1rem;top:0.1rem;
+}
+.asd1 .zsms{
+    display:inline-block;
+    font:0.16rem 宋体;color:#df507f;
+    position: absolute;left:0.35rem;top:0.09rem;
+}
+.time{
+    position: absolute;
+    left:1.3rem;top:0.08rem;
+}
+.time>li{
+    list-style: none;
+    float: left;
+    font:0.12rem 宋体;
+    width:0.15rem;
+    text-align: center;
+}
+.time>li:nth-child(1),.time>li:nth-child(2),.time>li:nth-child(4),.time>li:nth-child(5)
+,.time>li:nth-child(7),.time>li:nth-child(8)
+{
+    background-color: #000;color:#fff;
+    margin-left:0.05rem;
+    padding:0.02rem 0.04rem;
+}
+.asd1 .gd{
+    display:inline-block;
+    font:0.16rem 宋体;text-decoration: none;
+    color:#000;
+    position: absolute;
+    left:5.5rem;top:0.1rem;
+}
+.tupian>li:nth-child(1),.tupian>li:nth-child(2),.tupian>li:nth-child(3){
+    float:left;
+    list-style: none;
+    width:1.35rem;
+    margin:0.19rem 0.37rem 0.1rem 0.37rem;
+}
+.tupian{
+    padding-top:0.35rem;
+}
+.tupian>li:nth-child(1) img,.tupian>li:nth-child(2) img,.tupian>li:nth-child(3) img{
+    display: inline-block;
+    width:1.35rem;height:1.35rem;
+
+}
+
+.tupian>li>p{
+    font:0.14rem 宋体;
+    width:1.35rem;text-align: center;
+    color:red;
+}
+.tupian>li>p:nth-child(3){
+    color:#666;text-decoration: line-through;
+    padding-bottom:0.05rem;
+}
+.asd2{
+    width:6.32rem;
+    border-top:0.1rem solid #f5f5f5;
+    border-left:0.05rem solid #f5f5f5;
+    border-right:0.05rem solid #f5f5f5;
+    margin-top:0.05rem;
+
+
+
+}
+.asd2>p>.jd-cs{
+    display: inline-block;
+    font:0.16rem 宋体;
+    color:#666;text-decoration: none;
+    padding-left:0.1rem;
+    border-left: 0.03rem solid #d8505c;
+}
+.asd2>p{
+    padding:0 0.1rem 0.1rem 0.1rem;height:0.13rem;
+    /*border-bottom:0.01rem solid #e0e0e0;*/
+
+}
+.picture{margin-top:0.3rem;
+    border-top: 0.01rem solid #e0e0e0;
+    position: relative;
+}
+.picture .p-1{
+    width:3.14rem;height:3.4rem;
+    border-right: 0.01rem solid #e0e0e0;
+    float: left;
+}
+.picture .p-2{
+    width:3.15rem;height:1.75rem;
+    float:right;
+    border-bottom:0.01rem solid #e0e0e0;
+}
+.picture .p-3{
+    width:3.15rem;height:1.65rem;
+    float:left;
+}
+.picture .p-4{
+    width:3.14rem;height:1.75rem;
+    border-right: 0.01rem solid #e0e0e0;
+    float: left;
+    border-bottom:0.01rem solid #e0e0e0;
+}
+.picture .p-5{
+    width:3.15rem;height:1.65rem;
+   position: absolute;
+    left:0rem;top:1.76rem;
+
+}
+.picture .p-6{
+    width:3.14rem;height:3.4rem;
+    float:right;
+}
+
